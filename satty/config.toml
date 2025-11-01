@@ -1,0 +1,12 @@
+[general]
+initial-tool = "arrow"
+fullscreen = false
+copy-command = "wl-copy"
+disable-notifications = true
+
+[color-palette]
+palette = ["#FF0000", "#00FF00", "#0000FF", "#FFFFFF"]
+
+[font]
+family = "Sans"
+style = "Regular"

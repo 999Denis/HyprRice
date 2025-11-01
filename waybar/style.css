@@ -1,0 +1,65 @@
+@import "colors.css";
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "SF Pro Display", "JetBrainsMono Nerd Font";
+    font-size: 1.1rem;
+    min-height: 0;
+}
+
+window#waybar {
+    background: @background;
+    color: @on_surface;
+}
+
+tooltip {
+    background: @background;
+    border: 1px solid rgba(100, 114, 125, 0.5);
+}
+
+tooltip label {
+    color: @on_surface;
+}
+
+#workspaces button {
+    margin: 7px 5px 7px 5px;
+    padding: 5px 15px 5px 15px;
+    background: @secondary_fixed_dim;
+    color: @on_secondary_fixed_variant;
+    border-radius: 5px;
+}
+
+#workspaces button.active {
+    background: @primary;
+    color: @on_primary;
+    border-radius: 10px;
+}
+
+#window {
+    margin: 7px 5px 7px 5px;
+    padding: 5px 10px;
+    background-color: @primary;
+    color: #121212;
+    border-radius: 5px;
+}
+
+#custom-theme {
+    margin: 7px 5px 7px 5px;
+    padding: 5px 18px 5px 15px;
+    border-radius: 5px;
+    background-color: @primary;
+    color: #121212; 
+}
+
+#custom-music,
+#custom-date,
+#clock,
+#pulseaudio,
+#network {
+    margin: 7px 5px 7px 5px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: @primary;
+    color: #121212;
+}
